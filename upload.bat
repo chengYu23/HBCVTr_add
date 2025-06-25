@@ -10,7 +10,7 @@ REM 添加远程仓库（请替换为你自己的 GitHub 地址）
 git remote add origin https://github.com/chengYu23/HBCVTr_add.git
 
 REM 创建 main 分支并切换
-git checkout -b main
+git push -u origin main --force
 
 REM 添加 .gitignore 忽略 .pt 文件
 echo *.pt > .gitignore
